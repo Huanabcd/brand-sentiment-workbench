@@ -4,7 +4,7 @@
 
 ## 当前状态
 
-当前公开版本为 [v1.3.1 技术验收版](https://github.com/Huanabcd/brand-sentiment-workbench/releases/tag/v1.3.1)，不是收费正式版。macOS Apple Silicon 已完成从 v1.3.0 检查、下载、验签、切换并重启到 v1.3.1 的真实在线更新验收，原有品牌资料、导入内容、安装标识和许可证均保持不变；Windows x64 在完成真机验收和系统代码签名前，不作为正式商业版本发布。
+当前公开版本为 [v1.3.1](https://github.com/Huanabcd/brand-sentiment-workbench/releases/tag/v1.3.1)，处于技术验收阶段，不是收费正式版。macOS Apple Silicon 已完成从 v1.3.0 检查、下载、验签、切换并重启到 v1.3.1 的真实在线更新验收，原有品牌资料、导入内容、安装标识和许可证均保持不变；Windows x64 在完成真机验收和系统代码签名前，不作为正式商业版本发布。
 
 ## 下载与更新
 
