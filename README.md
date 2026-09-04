@@ -1,10 +1,28 @@
-# Brand Sentiment Workbench Updates
+# 品牌舆情工作台
 
-This public repository is the distribution endpoint for signed, generic update payloads of Brand Sentiment Workbench.
+这是“品牌舆情工作台”的公开项目页、使用说明与版本发布中心。软件在用户自己的电脑上运行，试用授权、正式授权和本机数据都不经过本仓库。
 
-- Release assets contain no customer license, installation identifier, customer data, credentials, signing private keys, or telemetry.
-- GitHub is used only for availability. The desktop client accepts an update only after verifying the bundled software-update trust root, signed manifest, platform, architecture, release sequence, file size, and SHA-256 digest.
-- Personalized first-install packages are delivered separately and are never published here.
-- Release assets are immutable after publication. A broken or unavailable update must leave the installed version and local customer data unchanged.
+## 当前状态
 
-The repository intentionally contains no application source. Published release assets may still be inspected by anyone because this is a public distribution channel.
+当前为邀请制技术验收阶段。macOS Apple Silicon 已纳入本轮真实运行验收；Windows x64 在完成真机验收和系统代码签名前，不作为正式商业版本发布。
+
+## 下载与更新
+
+- 首次安装包和版本说明由 [GitHub Releases](https://github.com/Huanabcd/brand-sentiment-workbench/releases) 承载。
+- 首次安装后，软件可由用户主动点击检查、下载并安装更新；不会后台静默安装。
+- 更新失败时保留旧版本，本机已有品牌资料、导入内容、安装标识和许可证不随程序更新覆盖。
+- GitHub 仅负责公开文件托管。客户端仍会独立校验发布公钥、Ed25519 签名、平台、架构、发布序号、文件大小和 SHA-256。
+
+## 试用与正式版
+
+试用版与正式版使用同一套客户端，通过独立签名许可证决定有效期、功能和容量。许可证与具体安装标识绑定；请勿公开分享许可证文件。
+
+## 隐私与安全边界
+
+公开发布资产不包含客户许可证、安装标识、客户数据、访问凭据、签名私钥或遥测信息。发布后的资产不可替换；错误或不可用的更新不能改写现有客户数据。
+
+本仓库默认分支不存放私有开发源码。公开发布的通用客户端文件本身可被下载者检查，这是本地软件交付的正常属性。
+
+## 问题反馈
+
+技术验收成员可通过本仓库 Issues 提交不含个人数据、平台 Cookie、Token、许可证和客户内容的问题描述。涉及敏感材料时请改用约定的私下渠道。
