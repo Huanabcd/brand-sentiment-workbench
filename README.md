@@ -4,11 +4,13 @@
 
 ## 当前状态
 
-当前公开版本为 [v1.3.1](https://github.com/Huanabcd/brand-sentiment-workbench/releases/tag/v1.3.1)，处于技术验收阶段，不是收费正式版。macOS Apple Silicon 已完成从 v1.3.0 检查、下载、验签、切换并重启到 v1.3.1 的真实在线更新验收，原有品牌资料、导入内容、安装标识和许可证均保持不变；Windows x64 在完成真机验收和系统代码签名前，不作为正式商业版本发布。
+计划公开版本为 [v0.24.0](https://github.com/Huanabcd/brand-sentiment-workbench/releases/tag/v0.24.0)，处于对外技术验收阶段，不是收费正式版。macOS Apple Silicon 将按 v0.23.0 → v0.24.0 完成真实在线更新验收并在发布后补充结果；Windows x64 在完成真机验收和系统代码签名前，不作为正式商业版本发布。
+
+版本号遵循简化的语义化规则：`0.x` 表示仍处于对外测试阶段；补丁修复递增最后一位，例如 `v0.24.1`；新增兼容功能递增中间位，例如 `v0.25.0`；首个商业稳定版才使用 `v1.0.0`。客户端通过 `/releases/latest` 检查更新，因此 `0.x` 技术验收版在 GitHub 上使用普通 Release，而不是 Pre-release；这只是更新分发要求，不代表收费正式版。
 
 ## 下载与更新
 
-- 首次安装包和版本说明由 [GitHub Releases](https://github.com/Huanabcd/brand-sentiment-workbench/releases) 承载；当前下载入口见 [v1.3.1](https://github.com/Huanabcd/brand-sentiment-workbench/releases/tag/v1.3.1)。
+- 首次安装包和版本说明由 [GitHub Releases](https://github.com/Huanabcd/brand-sentiment-workbench/releases) 承载；计划发布入口为 [v0.24.0](https://github.com/Huanabcd/brand-sentiment-workbench/releases/tag/v0.24.0)。
 - 首次安装后，软件可由用户主动点击检查、下载并安装更新；不会后台静默安装。
 - 更新失败时保留旧版本，本机已有品牌资料、导入内容、安装标识和许可证不随程序更新覆盖。
 - GitHub 仅负责公开文件托管。客户端仍会独立校验发布公钥、Ed25519 签名、平台、架构、发布序号、文件大小和 SHA-256。
